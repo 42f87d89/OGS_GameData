@@ -1,0 +1,23 @@
+{
+    "players" : {
+        "black" : {
+            "id" : "Number",
+            "username" : "String",
+            "ranking" : "Number"
+        },
+        "white" : {
+            "id" : "Number",
+            "username" : "String",
+            "ranking" : "Number"
+        }
+    },
+    "id" : "Number",
+    "width" : "Number",
+    "ranked" : "Boolean",
+    "handicapped" : "Number",
+    "tournament" : "Number",
+    "black_lost" : "Boolean",
+    "white_lost" : "Boolean",
+    "started" : "String",
+    "ended" : "String"
+}
