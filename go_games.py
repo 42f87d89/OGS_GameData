@@ -24,6 +24,8 @@ while url != None:
         else:
             print(game['historical_ratings']['white']['ratings']['overall']['rating'])
     results = results + data['results']
+    if url == None:
+        break
     page = requests.get(url).content
     data = json.loads(page)
 

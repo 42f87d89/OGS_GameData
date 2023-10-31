@@ -19,7 +19,7 @@ for game in data:
         continue
     if(game['black_username'] == argv[2]):
         output.write(str(game['black_rating'])+', '+str(game['started']))
-    else if(game['white_username'] == argv[2]):
+    elif(game['white_username'] == argv[2]):
         output.write(str(game['white_rating'])+', '+str(game['started']))
     else:
         exit()
